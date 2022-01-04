@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+    --primary-text-color: #181820;
+    --secondary-text-color: #5c5c62;
+    --durability-text-color: #6a737d9c;
+    --icon-color: #6a737d;
+    --border-color: #C90076;
+    --text-decoration-color: #C90076;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 30px;
@@ -35,7 +47,7 @@
       text-align: center;
   }
 
-  .contact-info__header {
+ .contact-info__header {
       color: var(--primary-text-color);
       margin-bottom: 15px;
       text-decoration-color: var(--text-decoration-color);
@@ -79,3 +91,29 @@
       height: 1.1428rem;
       vertical-align: text-bottom;
   }
+
+.intro {
+    display: flex;
+    justify-content: start;
+}
+
+.intro__icon-wrapper {
+    margin-right: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro__icon {
+    height: 1.1428rem;
+    vertical-align: text-bottom;
+}
+
+.intro__icon path {
+    fill: var(--text-decoration-color);
+}
+
+.intro_text {
+    color: var(--secondary-text-color);
+    text-align: justify;
+}
