@@ -65,6 +65,10 @@ body {
       justify-content: space-between;
   }
 
+   .contact-info__block--center {
+      justify-content: center;
+  }
+
   .contact-info__item {
       color: var(--secondary-text-color);
       text-decoration: none;
@@ -91,6 +95,15 @@ body {
       height: 1.1428rem;
       vertical-align: text-bottom;
   }
+
+  .contact-info__avatar {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 3px solid;
+      border-color: var(--text-decoration-color);
+ }
 
 .intro {
     display: flex;
